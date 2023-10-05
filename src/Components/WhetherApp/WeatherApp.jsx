@@ -136,7 +136,7 @@ const WeatherApp = () => {
           </div>
         </div>
       </div>
-      {sunrise && (
+      {weatherData && (
         <div className="weather-timimg">
           <p>
             Sunrise <br />
